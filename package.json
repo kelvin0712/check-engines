@@ -1,0 +1,32 @@
+{
+  "name": "npm-check-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvin0712/check-engines.git"
+  },
+  "author": "Kelvin Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvin0712/check-engines/issues"
+  },
+  "homepage": "https://github.com/kelvin0712/check-engines#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-env": "^22.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsdoc": "^36.0.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "kleur": "^4.1.3"
+  }
+}
