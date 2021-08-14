@@ -24,7 +24,7 @@ console.log(kleur.green(`Checking ${process.cwd()}/package.json:`));
  * import checkEngine from "check-engine/public/check-engine.mjs";
  * ```
  */
-export async function main() {
+export default async function main() {
   if (!packageConfig.engines || !packageConfig.engines.node)
     handleError(new Error("engines.node is not defined"));
 
